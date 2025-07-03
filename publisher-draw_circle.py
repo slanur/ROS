@@ -21,8 +21,8 @@ if __name__ == '__main__':
 #  pub = rospy.Publisher("/turtle1/cmd_vel", Twist, queue_size=10) 
 # "/turtle1/cmd_vel"-> topic adı.  Twist->topiğe yayınladığımız mesaj türü
 
-# bu örneği yapmak için bir terminalde -roscore-u çalıştırdık, diğerinde de -rosrun turtlesim turtle_node- u çalıştırdık.
+# bu örneği yapmak için bir terminalde -roscore-u çalıştırdık, diğerinde de -rosrun turtlesim turtlesim_node- u çalıştırdık.
 # -rostopic list- ile topiclerin listesini gördük ve -/turtle1/cmd_vel- topiğine hız komutu yayınlamaya karar verdik.
 # -rostopic info /turtle1/cmd_vel- ile bu topiğin bilgilerini aldık ve bu topiğe gelen mesaj türünün Twist olduğunu gördük
 # sonrasında kodumuzu yazdık.
-# çalıştırmak için yine ilk önce terminalde -roscore- u çalıştırdık, diğerinde -rosrun turtlesim turtle_node- u , diğerinde de -rosrun paketimizinAdi düğümünAdi- ni çalıştırdık
+# çalıştırmak için yine ilk önce terminalde -roscore- u çalıştırdık, diğerinde -rosrun turtlesim turtlesim_node- u , diğerinde de -rosrun paketimizinAdi düğümünAdi- ni çalıştırdık
